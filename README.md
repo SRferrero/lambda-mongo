@@ -16,11 +16,11 @@ Database access: Edit the user created and allow read and write or create a new 
 ## AWS setup
 
 Create a group within IAM and add the following permissions (some of them may not be mandatory, you could fine grain the full access ones):
-AWSLambdaFullAccess
-IAMFullAccess
-AmazonAPIGatewayAdministrator
-AWSLambdaBasicExecutionRole
-AWSCloudFormationFullAccess
+`AWSLambdaFullAccess`
+`IAMFullAccess`
+`AmazonAPIGatewayAdministrator`
+`AWSLambdaBasicExecutionRole`
+`AWSCloudFormationFullAccess`
 
 Also you need to add to your `.bashrc` or `.zshrc`
 
